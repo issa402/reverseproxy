@@ -1,0 +1,37 @@
+version: "3.9"
+
+services:
+  backend:
+    build: ./backend-app
+    container_name: backend
+    restart: unless-stopped
+    read_only: true
+    cap_drop:
+      - ALL
+    cap_add:
+      - NET_BIND_SERVICE
+    networks:
+      - app-net
+
+  nginx:
+    image: nginx:stable
+    container_name: nginx
+    depends_on: 
+      - backend
+    restart: unless-stopped
+    ports:
+      - "8080:80"
+      - "8443:443"
+    volumes:
+      - ./nginx-docker/default.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./nginx-docker/ssl:/etc/nginx/ssl:ro
+
+
+    networks:
+      - app-net
+
+networks:
+  app-net:
+    driver: bridge
+
+
