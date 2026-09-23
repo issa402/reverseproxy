@@ -1,6 +1,6 @@
 # 02 — Linux, networking, and disciplined debugging
 
-Prerequisite: workstation setup in [01](01-start-here.md). Outcome: explain where a request fails using observations from the operating system, network, and application. Run deliberate failure experiments only against your own local lab.
+Prerequisite: workstation setup in [01](01-start-here.md). Outcome: explain where a request fails using observations from the operating system, network, and application. Run deliberate failure experiments only against your own local lab. This chapter starts the subject; [10 — Linux mastery](10-linux-mastery.md) develops it further and [12 — weekly OS practice](12-operating-system-weekly-track.md) keeps it active for all 48 weeks.
 
 ## 1. What runs a program?
 

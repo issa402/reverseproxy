@@ -9,11 +9,11 @@ This is a proposed sequence at approximately 10 hours/week. Dates are intentiona
 | Monday | 90 minutes | Read one focused section; explain it; implement a tiny example |
 | Tuesday | 90 minutes | Project implementation and behavior tests |
 | Wednesday | 90 minutes | Algorithms with reasoning and edge cases |
-| Thursday | 90 minutes | Debugging/failure experiment and repair |
+| Thursday | 90 minutes | Linux operating-system diagnosis tied to the current project; on paired weeks compare Windows |
 | Saturday | 3 hours | Integrate the project, measure, write evidence |
 | Sunday | 1 hour | Recall from memory, review, plan next week |
 
-Keep Friday free or use it for recovery. If a session is missed, resume the next prerequisite; do not compensate by dropping tests and explanations.
+Keep Friday free or use it for recovery. If a session is missed, resume the next prerequisite; do not compensate by dropping tests and explanations. Use [10 — Linux mastery](10-linux-mastery.md) for depth, [11 — Windows companion](11-windows-companion.md) for Windows workloads, and [12 — the week-by-week OS track](12-operating-system-weekly-track.md) for the exact Thursday exercise. This work fits the existing ten-hour schedule.
 
 ## Ordered weekly backlog
 

@@ -1,6 +1,6 @@
 # Isaac's cloud, software, and systems engineering journey
 
-Prepared September 22, 2026. Start with [01 — Setup and the first 14 days](01-start-here.md). This directory deliberately uses your requested spelling, `jounrey`.
+Updated September 23, 2026. Start with [01 — Setup and the first 14 days](01-start-here.md). This directory deliberately uses your requested spelling, `jounrey`.
 
 The goal is to become an engineer who can build, explain, debug, measure, and improve a service from source code through its cloud dependencies. Google and Amazon are career targets; readiness depends on the role, demonstrated experience, available positions, and interview performance. This curriculum is a proposed training plan, not a hiring guarantee or a claim that anyone can know every tool.
 
@@ -17,6 +17,9 @@ The goal is to become an engineer who can build, explain, debug, measure, and im
 | [07 — Project ladder and capstone](07-projects-and-capstone.md) | Deliver progressively harder systems with acceptance tests and measurable evidence |
 | [08 — Weekly plan and mentoring](08-weekly-plan-and-mentoring.md) | Follow 48 study weeks, track progress, request useful feedback, and prepare applications |
 | [09 — Glossary and resource library](09-glossary-and-resources.md) | Look up terminology and choose the next reading with a specific exercise |
+| [10 — Linux mastery](10-linux-mastery.md) | Learn shell, services, networks, storage, performance, security, and cloud-host diagnosis |
+| [11 — Windows companion](11-windows-companion.md) | Diagnose Windows services, events, routes, and SMB with PowerShell |
+| [12 — OS practice each week](12-operating-system-weekly-track.md) | Apply Linux every week and compare Windows on paired labs |
 | [Templates](templates/) | Record designs, experiments, incidents, learning, and interview stories |
 
 ## Choose the role deliberately
@@ -52,7 +55,7 @@ Reading creates context. Evidence that you can perform the task earns progress. 
 
 ## The competence scorecard
 
-Use the same 0–4 scale for Linux, networking, Python, Go, AWS/IAM, IaC, databases, distributed systems, debugging, algorithms, and communication.
+Use the same 0–4 scale for Linux, Windows workload diagnosis, networking, Python, Go, AWS/IAM, IaC, databases, distributed systems, debugging, algorithms, and communication. Linux practice continues every week through the operating-system track; use the Windows companion for paired labs and Windows workloads.
 
 | Score | Demonstration |
 |---|---|

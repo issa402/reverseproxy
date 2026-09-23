@@ -47,6 +47,15 @@ Use this with the worked explanations in the chapters. For each term, give your 
 | Thread | Execution path within a process sharing much of its memory |
 | Kernel | OS core managing CPU, memory, devices, and system calls |
 | File descriptor | Handle for an open file/socket; leaks can exhaust limits |
+| PID 1 / init | First user-space process / service startup and supervision role |
+| systemd unit | Service configuration read by systemd; starting is not health |
+| Signal | OS notification to a process; TERM requests graceful shutdown |
+| UID/GID / ACL | Numeric user/group identities / additional file-access rules |
+| Mount / inode | Expose a filesystem at a path / file metadata and block references |
+| RSS / page cache | Resident process memory / reusable cached file data |
+| Namespace / cgroup | Process resource view / process-group resource accounting and control |
+| WSL 2 | Linux kernel in a lightweight VM integrated with Windows |
+| PowerShell object pipeline | Passes structured objects between cmdlets, unlike typical Bash text pipes |
 | DNS | Name-to-record lookup; successful resolution does not prove reachability |
 | TCP | Reliable ordered byte stream between endpoints |
 | TLS | Connection encryption and peer identity verification |
@@ -124,6 +133,10 @@ Most reading is publicly accessible. Cloud experiments and some optional platfor
 | [Python venv](https://docs.python.org/3/tutorial/venv.html) | Package isolation | Reproducible environment |
 | [Python ipaddress](https://docs.python.org/3/library/ipaddress.html) | CIDRs | Route membership tests |
 | [Linux ps](https://man7.org/linux/man-pages/man1/ps.1.html), [ss](https://man7.org/linux/man-pages/man8/ss.8.html) | Process/socket inspection | Listener diagnosis |
+| [GNU Bash manual](https://www.gnu.org/software/bash/manual/), [Linux man-pages](https://man7.org/linux/man-pages/) | Quoting, scripts, system interfaces | Reproducible shell and process labs |
+| [Ubuntu Server docs](https://ubuntu.com/server/docs/), [systemd manuals](https://www.freedesktop.org/software/systemd/man/) | Services, logs, storage, security | VM incident and restore report |
+| [Kernel cgroup v2](https://docs.kernel.org/admin-guide/cgroup-v2.html) | Container resource control | Host/container limit explanation |
+| [PowerShell docs](https://learn.microsoft.com/en-us/powershell/), [WSL networking](https://learn.microsoft.com/en-us/windows/wsl/networking) | Windows and WSL diagnostics | Paired OS investigation |
 | [Boto3 guide](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/index.html) | Credentials, pagination, retries | Collector with partial failure states |
 | [Go install](https://go.dev/doc/install), [Tour](https://go.dev/tour/), [tutorials](https://go.dev/doc/tutorial/) | Types, errors, packages, concurrency | Go normalizer and service |
 | [Go diagnostics](https://go.dev/doc/diagnostics), [race detector](https://go.dev/doc/articles/race_detector) | Measurements and races | Profiled bounded worker pool |

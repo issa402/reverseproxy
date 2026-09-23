@@ -13,7 +13,7 @@ Use this file first. You do not need Kubernetes, multiple AWS accounts, or a pai
 
 A shell reads commands. PowerShell and Bash have different syntax. A terminal is the application displaying that shell. A runtime executes a program, such as Python; a compiler such as Go's compiler translates source into an executable.
 
-Choose one Linux environment for the labs. Avoid mixing a Windows Python virtual environment with Ubuntu's interpreter. Keep Linux project files in Ubuntu's home filesystem and open them using VS Code's WSL integration.
+Choose one Linux environment for the labs. Avoid mixing a Windows Python virtual environment with Ubuntu's interpreter. Keep Linux project files in Ubuntu's home filesystem and open them using VS Code's WSL integration. Continue Linux throughout the entire plan with [10 — Linux mastery](10-linux-mastery.md) and the [weekly operating-system track](12-operating-system-weekly-track.md). Use [11 — Windows companion](11-windows-companion.md) for Windows workloads and paired diagnosis.
 
 ## 2. Install and verify Linux
 

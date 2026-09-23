@@ -206,7 +206,7 @@ EKS is an optional timed AWS exercise after local Kubernetes passes. Provision n
 
 ### Capstone completion
 
-Deliver source, tests, IaC, architecture diagram, contracts, security assumptions, benchmark report, restore/replay test, cost record, incident writeup, and a five-minute demonstration. A reviewer must be able to reproduce the local version from the README.
+Deliver source, tests, IaC, architecture diagram, contracts, security assumptions, benchmark report, restore/replay test, cost record, incident writeup, a Linux host/container runbook with process, socket, log, and recovery evidence, a Windows comparison for one failure, and a five-minute demonstration. A reviewer must be able to reproduce the local version from the README.
 
 ## Optional advanced projects
 
